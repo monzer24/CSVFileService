@@ -32,19 +32,19 @@ public class StartupRunner implements CommandLineRunner {
         searchData.put(2, row1);
         searchData.put(3, row2);
 
-        System.out.println(controller.getAll("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt", ",", true));
+//        System.out.println(controller.getAll("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt", ",", true));
 
-        controller.deleteAll("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt");
+//        controller.deleteAll("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt");
 
-        System.out.println(controller.find("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt", ",", true, "monzer", "82"));
+//        System.out.println(controller.find("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt", ",", true, "monzer", "87"));
 
-        System.out.println(controller.find("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt", ",", true, 2, "hussain"));
+//        System.out.println(controller.find("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt", ",", true, 2, "hussain"));
 
-        System.out.println(controller.find("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt", ",", true, searchData));
+//        System.out.println(controller.find("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt", ",", true, searchData));
 
-        controller.delete("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt", ",", true, "omar");
+//        controller.delete("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt", ",", true, "omar");
 
-        controller.delete("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt", ",", true, 1, "ali" );
+//        controller.delete("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt", ",", true, 1, "ali" );
 
         controller.delete("C:\\Users\\Monzer\\OneDrive\\Desktop\\csv.txt", ",", true, searchData);
     }
